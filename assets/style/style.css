@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: inline;
+    vertical-align: top;
+    width: 90px;
+    text-align: center;
+    padding-top: 11px;
+    margin-right: 70px;
+    margin-left: 40px;
+}
+.yoo-text {
+    color: #55D800;
+}
+.explore-btn {
+    border-radius: 10px;
+    background-color: #55D800;
+    border: none;
+    height: 40px;
+    width: 155px;
+    color: white;
+    text-align: center;
+    /* display: inline-block; */
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 75px;
+    margin-left: 125px;
+}
+
+/* hero
+------------------------- */
+.hero{
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Thin out the marketing headings */
+.hero-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+    margin-left: 125px;
+    margin-top: 130px;
+}
+
+.lead{
+    margin-left: 125px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 800px) {
+    .explore-btn{
+        margin-left: 50px;
+    }
+    .hero-heading{
+        margin-left: 50px;
+        margin-top: 80px;
+        line-height: 32px;
+    }
+    .lead{
+        margin-left: 50px;
+    }
+    .konten-header{
+        margin-top: 240px;
+        color: #000;
+        width: auto;
+        height: 0;
+        margin-left: 50px;
+    }
+    .bungkus-header{
+        margin-bottom: 510px;
+        height: 0;
+        background-color: rgb(54, 54, 54);
+    }
+}
+
+.bungkus-header{
+    margin-left: 0px;
+    margin-top: -180px;
+    width: auto;
+    background-color: rgb(54, 54, 54);
+    opacity: 0.8;
+    color: #fff;
+}
+
+.konten-header{
+    margin-left: 50px;
+}
+
+
+.tentang-smk{
+    color:#55D800;
+    font-size: 20px;
+}
+.konten-tentang{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.tentang{
+    background-color: #fff;
+    color: #000;
+    margin-top: 50px;
+}
+
+
+.judul{
+    color: #55D800;
+    font-size: 22px;
+}
+/* .subjudul{
+    font-weight: bolder;
+} */
+
+.keahlian{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: right;
+}
+
+.jurusan{
+    margin: 50px ;
+}
+
+/* awal pionir */
+
+.pionir-teks{
+    color: #55D800;
+}
+
+.pionir-paragrap{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/* akhir pionir */
+.judul_falitas{
+    margin-left: 115px;
+    margin-bottom: 25px;
+}
+/* .card-text-fasilitas{
+    color: #55D800;
+} */
+
+
+.balakra{
+    background-color: black;
+}
+.judul-berita{
+    margin-top: 30px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+
+
+/* Awal event */
+.judul-event{
+    margin-left: 120px;
+}
+
+.text-event{
+    color:#55D800;
+}
+.gallery-img{
+    width: 100%;
+    height: 612px;
+}
+#event .row > * {
+    padding: 0;
+}
+
+
+/* Akhir Event */
+
+
+.penutup{
+    background-color: #212529;
+    color: #fff ;
+    margin-top: 50px;
+
+}
+.text-penutup{
+    margin-left: 50px;
+    margin-top: 150px;
+    
+}
+
+
+#kontak{
+    background-color: #212529;
+    margin-right: -12px;
+}
+.konten-kontak{
+    margin-left: 50px;
+    color: #fff;
+    
+}
+.kontak-img{
+    margin-top: 50px;
+}
+
+.kontak-kami{
+    margin-top: 20px;
+}
+
+.kontak-link{
+    color: #fff;
+}
+
+.hr{
+    color: #fff;
+}
+
+
+/* FOOTER */
+#footer{
+    background-color: #212529;
+    color: #fff;
+    margin-top: -10px;
+    margin-right: -12px;
+}
+.ikon-sosmed{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.number-col h2{
+    color: #000;
+    font-size: 52px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.number-col{
+    background-color:#fff;
+    box-shadow: 3px 3px 3px #55D800,
+                -3px -3px 3px #55D800;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    height: 200px;
+    width: 200px;
+    color: #000;
+    border-radius: 100%;
+    font-size: 18px;
+}
+
+
+.data{
+    margin-top: 100px;
+}
+
+.balik{
+    font-size: 40px;
+    color: #fff;
+    margin-top: -50px;
+}
